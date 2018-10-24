@@ -541,7 +541,7 @@ text-decoration: underline;
 }
 .meter > span  > span{
   margin-left: 6px;
-    vertical-align: middle;
+  margin-top: 2px;
   color: #00435b;
 }
 /*
