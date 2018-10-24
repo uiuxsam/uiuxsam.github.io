@@ -11,12 +11,12 @@ audio[controls],canvas,video {display: inline-block; *display: inline; zoom: 1}
 
 /* BASE */
 html {height: 100%; font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%} /* Force scrollbar in non-IE and Remove iOS text size adjust without disabling user zoom */
-body {margin: 0; min-height: 100%; -webkit-font-smoothing:antialiased; font-smoothing:antialiased; text-rendering:optimizeLegibility;color: #00435b} /* Improve default text rendering, handling of kerning pairs and ligatures */
+body {margin: 0; min-height: 100%; -webkit-font-smoothing:antialiased; font-smoothing:antialiased; text-rendering:optimizeLegibility;color: #006693} /* Improve default text rendering, handling of kerning pairs and ligatures */
 
 /* DEFAULT FONT SETTINGS */
 /* 16px base font size with 150% (24px) friendly, unitless line height and margin for vertical rhythm */
 /* Font-size percentage is based on 16px browser default size */
-body, button, input, select, textarea {font: 100%  'Lato', sans-serif; *font-size: 1em; color: #00435b} /* IE7 and older can't resize px based text */
+body, button, input, select, textarea {font: 100%  'Lato', sans-serif; *font-size: 1em; color: #005980} /* IE7 and older can't resize px based text */
 p, blockquote, q, pre, address, hr, code, samp, dl, ol, ul, form, table, fieldset, menu, img {margin: 0 0 1.5em; padding: 0}
 
 /* TYPOGRAPHY */
@@ -24,7 +24,7 @@ p, blockquote, q, pre, address, hr, code, samp, dl, ol, ul, form, table, fieldse
 h1, h2, h3, h4, h5, h6 {font-family:'Open Sans', sans-serif;color:#e67e22;}
 h1 {margin: 0; font-size: 3.75em; line-height: 1.2em; margin-bottom: 0.4em} /* 60px / 72px */
 h2 {margin: 0; font-size: 3em; line-height: 1em; margin-bottom: 0.5em} /* 48px / 48px */
-h3 {margin: 0; font-size: 2.25em; line-height: 1.3333333333333333333333333333333em; margin-bottom: 0.6667em} /* 36px / 48px */ 
+h3 {margin: 0; font-size: 2.25em; line-height: 1em; margin-bottom: 0.55em} /* 36px / 48px */ 
 h4 {margin: 0; font-size: 1.5em; line-height: 1em; margin-bottom: 1em} /* 24px / 24px */
 h5 {margin: 0; font-size: 1.3125em; line-height: 1.1428571428571428571428571428571em; margin-bottom: 1.1428571428571428571428571428571em} /* 21px / 24px */
 h6 {margin: 0; font-size: 1.125em; line-height: 1em; margin-bottom: 0.5em} /* 18px / 24px */
